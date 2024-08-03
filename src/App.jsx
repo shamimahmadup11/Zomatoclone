@@ -1,14 +1,12 @@
-
-import './App.css'
+import './App.css';
+import Landing from './pages/landing';
 
 function App() {
-
-
   return (
     <>
-   <h1>Zomato clone </h1>
+      <Landing />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
