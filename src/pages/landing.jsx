@@ -4,6 +4,7 @@ import { setUserEmail, setIsLoggedIn} from '../Redux/Slices/userSlice';
 import HeroSection from "../components/heroSection";
 import Navbar from "../components/navbar";
 import PopularRestaurants from "../components/popularRestaurants";
+import Body from './Body';
 
 const Landing = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -28,6 +29,7 @@ const Landing = () => {
         <>
           <HeroSection />
           <PopularRestaurants />
+          <Body/>
         </>
       ) : null}
     </div>
