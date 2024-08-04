@@ -4,6 +4,7 @@ This is a Zomato clone built using the MERN stack (MongoDB, Express, React, Node
 Project Links
 GitHub Repository: Zomato Clone
 Hosted Application: Zomato Clone on Vercel
+hosted link : https://zomatoclone-ashen.vercel.app/
 Features
 User Authentication: Sign up and log in functionality for users.
 Order Management: Create orders, get orders, update order status, and retrieve orders by user and restaurant.
